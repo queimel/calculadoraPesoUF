@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>calculadora UF</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-6 align-self-center">
+                <h1>Convertidor</h1>
+
+                <form action="">
+                    <div class="form-group">
+                        <label for="">Pesos</label>
+                        <input type="text" class="form-control" id="cantidad">
+                    </div>
+                
+                    <div class="row">
+                        <div class="col-5">
+                            <div class="form-group">
+                                <select name="" id="convert1" class="form-control">
+                                    <option value="">Peso</option>
+                                    <option value="">UF</option>
+                                    <option value="">UTM</option>
+                                    <option value="">Dolar</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col text-center"><span class="align-middle">a</span></div>
+                        <div class="col-5">
+                            <div class="form-group">
+                                <select name="" id="convert2" class="form-control">
+                                    <option value="">Peso</option>
+                                    <option value="">UF</option>
+                                    <option value="">UTM</option>
+                                    <option value="">Dolar</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-10">
+                            <div class="form-group">
+                                <label for="">Valor</label>
+                                <input type="text" class="form-control" id="valor" disabled>
+                            </div>
+                        </div>
+                        <div class="col-2 ">
+                            <div class="d-inline-block align-bottom">
+                                <br/>
+                                <div class="alert alert-warning" role="alert" id="unidad">UTM</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col text-right">
+                            <button class="btn btn-primary" type="submit">Consultar</button>
+                            <button class="btn btn-secondary" type="reset">Resetear</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
