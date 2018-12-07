@@ -24,10 +24,10 @@
                         <div class="col-5">
                             <div class="form-group">
                                 <select name="" id="convert1" class="form-control">
-                                    <option value="">Peso</option>
-                                    <option value="">UF</option>
-                                    <option value="">UTM</option>
-                                    <option value="">Dolar</option>
+                                    <option value="1">Peso</option>
+                                    <option value="2">UF</option>
+                                    <option value="3">UTM</option>
+                                    <option value="4">Dolar</option>
                                 </select>
                             </div>
                         </div>
@@ -35,10 +35,10 @@
                         <div class="col-5">
                             <div class="form-group">
                                 <select name="" id="convert2" class="form-control">
-                                    <option value="">Peso</option>
-                                    <option value="">UF</option>
-                                    <option value="">UTM</option>
-                                    <option value="">Dolar</option>
+                                    <option value="1">Peso</option>
+                                    <option value="2">UF</option>
+                                    <option value="3">UTM</option>
+                                    <option value="4">Dolar</option>
                                 </select>
                             </div>
                         </div>
@@ -59,8 +59,14 @@
                     </div>
                     <div class="row">
                         <div class="col text-right">
-                            <button class="btn btn-primary" type="submit">Consultar</button>
-                            <button class="btn btn-secondary" type="reset">Resetear</button>
+                            <button class="btn btn-primary" id="consultar">Consultar</button>
+                            <button class="btn btn-secondary" type="reset" id="resetear">Resetear</button>
+                        </div>
+                    </div>
+                    <br/>
+                    <div class="row col">
+                        <div class="alert alert-danger" role="alert" style="display:none;">
+                            .
                         </div>
                     </div>
                 </form>
